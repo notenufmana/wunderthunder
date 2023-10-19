@@ -3,7 +3,7 @@
 A lateral movement tool based on pywinrm. Requires local administrator
 privileges and winrm to be enabled on the endpoint you are targeting.
 
-NOTE: Tested with Python 3.11.4 on MacOS and Linux.
+NOTE: Tested with Python 3.11.4 and pywinrm 0.4.3 on MacOS/Linux.
 
 ## About
 
@@ -128,10 +128,9 @@ Refer:
 
 ## Credits
 
-wunderthunder.py is pretty much a glorified `for` loop wrapper built around the
-pywinrm library. So thank their devs for creating an excellent library.
-
-Refer:
-
-- https://github.com/diyan/pywinrm
+- [pywinrm](https://github.com/diyan/pywinrm) library: wunderthunder.py is a
+  wrapper built around pywinrm. So thank their devs for creating an excellent
+  library.
+- [deadjakk](https://github.com/deadjakk): For coming up with the name
+  'wunderthunder'.
 
